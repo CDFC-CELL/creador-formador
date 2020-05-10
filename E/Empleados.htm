@@ -8,19 +8,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List href="https://cdfc-cell.github.io/creador-formador/E/formulario_archivos/filelist.xml">
+<link rel=File-List href="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/filelist.xml">
 <title>LISTA DE EMPLEADOS</title>
 <![if !supportTabStrip]>
-<link id="shLink" href="https://cdfc-cell.github.io/creador-formador/E/formulario_archivos/sheet001.html">
+<link id="shLink" href="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/sheet001.html">
+<link id="shLink" href="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/sheet002.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=1;
+ var c_lTabs=2;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Hoja1";
+ c_rgszSh[0] = "Empleados";
+ c_rgszSh[1] = "Servicios";
 
 
 
@@ -50,7 +52,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -298,15 +300,20 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Hoja1</x:Name>
-    <x:WorksheetSource HRef="https://cdfc-cell.github.io/creador-formador/E/formulario_archivos/sheet001.html"/>
+    <x:Name>Empleados</x:Name>
+    <x:WorksheetSource HRef="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/sheet001.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Servicios</x:Name>
+    <x:WorksheetSource HRef="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/sheet002.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
-  <x:Stylesheet HRef="https://cdfc-cell.github.io/creador-formador/E/formulario_archivos/stylesheet.css"/>
-  <x:WindowHeight>7220</x:WindowHeight>
-  <x:WindowWidth>12870</x:WindowWidth>
-  <x:WindowTopX>4690</x:WindowTopX>
-  <x:WindowTopY>1390</x:WindowTopY>
+  <x:Stylesheet HRef="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/stylesheet.css"/>
+  <x:WindowHeight>10460</x:WindowHeight>
+  <x:WindowWidth>19420</x:WindowWidth>
+  <x:WindowTopX>32767</x:WindowTopX>
+  <x:WindowTopY>32767</x:WindowTopY>
+  <x:ActiveSheet>1</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -314,8 +321,8 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="https://cdfc-cell.github.io/creador-formador/E/formulario_archivos/sheet001.html" name="frSheet">
- <frame src="https://cdfc-cell.github.io/creador-formador/E/formulario_archivos/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
+ <frame src="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/sheet002.html" name="frSheet">
+ <frame src="https://cdfc-cell.github.io/creador-formador/E/Empleados_archivos/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
    <p>Esta página utiliza marcos que su explorador no admite.</p>
